@@ -1,0 +1,146 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="ui.css">
+    <link rel="stylesheet" href="uii.js">
+</head>
+<body>
+    <header>
+        <div class="container">
+            
+            <div class="profile">
+                <div class="loop-wrapper">
+                    <div class="mountain"></div>
+                    <div class="hill"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="tree"></div>
+                    <div class="rock"></div>
+                    <div class="truck"></div>
+                    <div class="wheels"></div>
+                  </div> 
+                <img src="RESUME.jpeg" alt="RESUME" class="RESUME"   id="RESUME">
+                
+                <audio id="audio" src="pro.mp3"></audio>
+                <script>
+                  var audio = document.getElementById("audio");
+                  var RESUME = document.getElementById("RESUME");
+                  
+                  function play() {
+                    audio.play();
+                  }
+                  
+                  function stop() {
+                    audio.pause();
+                  }
+                  
+                  RESUME.addEventListener('click', play);
+                  RESUME.addEventListener('mouseover', play);
+                  RESUME.addEventListener('mouseout', stop);
+                </script>
+    
+               
+                <h1>Yuvraj Singh</h1>
+                <h2>Full Stack Developer</h2>
+                <p>Email: yuvraysingh76@gmail.com</p>
+                <p>Phone: +91 7876601301</p>
+            </div>
+    </header>
+    <main>
+        
+        <section class="Welcome to my Portfolio">
+            
+            <h1>Welcome to my Portfolio</h1>
+            
+        
+        </section>
+        <section class="parallax" style="background-image: url(education.avif);">
+            <div class="parallax-content">
+                
+                <p>
+                    <h1>SKILLS</h1>
+                <h3>	
+                    <div class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            
+                        </ul>
+                    </div>
+                </p>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Traning</h2>
+        
+        </section>
+        <section class="parallax" style="background-image: url(coddingskills.jpg);">
+            <div class="parallax-content">
+                <div class="experience">
+                    <h3>Work Experience</h3>
+                    <div class="job">
+                        <h4>Web Developer Traning</h4>
+                        <p>Arrow Edutech Pvt.Ltd.</p>
+                        <p>Aug. 2023 – Sep.2023</p>
+                        <ul>
+                            <li>Learned basic web development skills</li>
+                            <li>Implemented responsive design</li>
+                            <li>Optimized website performance</li>
+                        </ul>
+                    </div>
+                    <div class="job">
+                        <h4>Java Traning</h4>
+                        <p>A2IT Private Limited </p>
+                        <p>Aug. 2022 –  Sep. 2022</p>
+                        <ul>
+                            <li>Learned basic about java skills</li>
+                            <li>Improved website accessibility</li>
+                            <li>Learned basic web development skills</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section class="SKILLS">
+            <h2>SKILLS</h2>
+        
+        </section>
+        <section class="parallax" style="background-image: url(exprenxie.jpg);">
+            <div class="parallax-content">
+                
+              
+              
+            </div>
+        </section> -->
+        <section class="HONORS AND EXTRACURRICAL ACTIVITES">
+            <h2>Education</h2>
+        
+        </section> 
+        <section class="parallax" style="background-image: url(project.jpg);">
+            
+            <div class="education">
+                <h3>Education</h3>
+                <div class="degree">
+                    <h4>Bachelor of Science in Computer Science</h4>
+                    <p>Atal Bihari Vajpayee Government Institute of Engineering and Technology</p>
+                    <p>Graduated July 2024</p>
+                </div>
+                    
+
+            </div>
+        </section>
+        <!-- <section class="contact">
+            <h2>Contact</h2>
+            <p>+91 7876601301</p>
+            <p>yuvraysingh76@gmail.com</p>
+         
+        </section> -->
+    </main>
+   
+</body>
+</html>
